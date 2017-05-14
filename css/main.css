@@ -1,3 +1,35 @@
 .btn-group {
   margin-left: 40px;
 }
+
+#landing-logo {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jumbotron {
+  background-color: black;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar-brand {
+  color: #FFE81F;
+}
+
+#name {
+  text-shadow: 0 0 0.2em #1d99f7, 0 0 0.2em #1d99f7,
+        0 0 0.2em #1d99f7
+}
+
+.list-group {
+  font-size: 20px;
+  max-height: 500px;
+  position: absolute;
+  overflow-y: scroll;
+}
