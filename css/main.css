@@ -30,6 +30,25 @@ body {
 .list-group {
   font-size: 20px;
   max-height: 500px;
-  position: absolute;
+  max-width: 500px;
+  /*position: absolute;*/
   overflow-y: scroll;
+  display: block;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.btn-info {
+  background: black;
+  text-shadow: 0 0 0.2em #1d99f7, 0 0 0.2em #1d99f7,
+        0 0 0.2em #1d99f7;
+}
+
+
+@media (min-width: @screen-sm-min) {
+
+ }
+
+@media (min-width: @screen-md-min) {
+
 }
