@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const API_URL = 'http://swapi.co/api/people/?page=';
+  const API_URL = 'https://swapi.co/api/people/?page=';
   let charArray = [];
 
   $('.list-group').hide();
