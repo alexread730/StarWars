@@ -3,14 +3,7 @@ $(document).ready(function() {
   let charArray = [];
   let charNum = 0;
 
-  $('.list-group').hide();
-  $('.jumbotron').hide();
-  $('.loading').hide();
-  $('.jumbotron').fadeIn(2000);
-
   getCharacters();
-
-
 
   function getCharacters() {
     const promises = [];

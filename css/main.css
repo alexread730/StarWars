@@ -32,6 +32,8 @@ body {
   background-color: black;
   border-color: #ffe81f;
   width: 80vw;
+  display: block;
+  margin: 0 auto;
 }
 
 #name, #born, #species, #films, #homeworld, h4{
@@ -51,8 +53,6 @@ body {
   max-height: 100vh;
   max-width: 500px;
   overflow-y: scroll;
-  display: block;
-  margin: 0 auto;
   width: 90vw;
 }
 
