@@ -28,14 +28,27 @@ body {
   color: #FFE81F;
 }
 
-#name {
-  text-shadow: 0 0 0.2em #1d99f7, 0 0 0.2em #1d99f7,
-        0 0 0.2em #1d99f7
+.modal-content {
+  background-color: black;
+  border-color: #ffe81f;
+  width: 80vw;
+}
+
+#name, #born, #species, #films, #homeworld, h4{
+  color: #31B0D5;
+  text-shadow: 0 0 3em #1d99f7, 0 0 0.2em #1d99f7,
+        0 0 0.2em #1d99f7;
+}
+
+.loading img {
+  width: 100px;
+  height: auto;
+  margin-left: 50px;
 }
 
 .list-group {
   font-size: 20px;
-  max-height: 500px;
+  max-height: 100vh;
   max-width: 500px;
   overflow-y: scroll;
   display: block;
