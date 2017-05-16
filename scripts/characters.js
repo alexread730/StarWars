@@ -55,14 +55,14 @@ $(document).ready(function() {
   });
 
   function getHomeworld(homeworld) {
-    $.getJSON(homeworld)
+    $.getJSON(homeworld.replace(/http/, 'https'))
       .then(function(response) {
         $('#homeworld').text(`Homeworld: ${response.name}`);
       });
   }
 
   function getSpecies(species) {
-    $.getJSON(species)
+    $.getJSON(species.replace(/http/, 'https'))
       .then(function(response) {
         $('#species').text(`Species: ${response.name}`);
       });
@@ -71,7 +71,7 @@ $(document).ready(function() {
   function getFilms(films) {
     $('#films').empty();
     for (var i = 0; i < films.length; i++) {
-      $.getJSON(films[i])
+      $.getJSON(films[i].replace(/http/, 'https'))
         .then(function(response) {
           $('#films').append(`<li>Episode ${response.episode_id}: ${response.title}</li>`);
           $('.loading').hide();
