@@ -3,6 +3,10 @@
 
 }
 
+.btn-info img {
+  display: none;
+}
+
 .nav li {
   font-size: 18px;
   text-align: center;
@@ -46,6 +50,13 @@ body {
   width: 100px;
   height: auto;
   margin-left: 50px;
+}
+
+.character-avatar img {
+  width: auto;
+  max-height: 300px;
+  display: block;
+  margin: 5px auto;
 }
 
 .list-group {

@@ -3,6 +3,7 @@ $(document).ready(function() {
   let charArray = [];
   let charNum = 0;
 
+
   getCharacters();
 
   function getCharacters() {
@@ -33,16 +34,26 @@ $(document).ready(function() {
   }
 
   function makeCharacterList(character) {
-    //append list of characters to page
-    $('.list-group').append(
-      `<button type="button" data-index=${charNum} class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg">${character.name}</button>`);
-    charNum++;
+    let avatar = "";
+    $.get('./scripts/character-images.json')
+    .then( function(imageArray){
+      imageArray.find(function(imageObj){
+        if (character.name == imageObj.name) {
+          avatar = imageObj.image;
+        }
+      });
+      //append list of characters to page
+      $('.list-group').append(
+        `<button type="button" data-index=${charNum} class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="${avatar}" width="50%" height="auto"><br />${character.name}</button>`);
+      charNum++;
+    });
     }
 
   $('.list-group').on('click', '.btn', function() {
     event.preventDefault();
     $('.loading').show();
     let index = $(this).attr('data-index');
+    getAvatar(index);
     let homeworldURL = charArray[index].homeworld;
     let speciesURL = charArray[index].species[0];
     let films = charArray[index].films;
@@ -53,6 +64,18 @@ $(document).ready(function() {
     getFilms(films);
 
   });
+
+  function getAvatar(index) {
+    $('.character-avatar').empty();
+    $.get('./scripts/character-images.json')
+    .then( function(imageArray){
+      imageArray.find(function(imageObj){
+        if (charArray[index].name == imageObj.name) {
+          $('.character-avatar').append(`<img src="${imageObj.image}">`);
+        }
+      });
+    });
+  }
 
   function getHomeworld(homeworld) {
     $.getJSON(homeworld.replace(/http/, 'https'))
