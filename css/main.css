@@ -1,9 +1,15 @@
 .btn-group {
   margin-left: 40px;
+
+}
+
+.nav li {
+  font-size: 18px;
+  text-align: center;
 }
 
 #landing-logo {
-  width: 400px;
+  width: 90vw;
   height: auto;
   display: block;
   margin-left: auto;
@@ -31,7 +37,6 @@ body {
   font-size: 20px;
   max-height: 500px;
   max-width: 500px;
-  /*position: absolute;*/
   overflow-y: scroll;
   display: block;
   margin: 0 auto;
@@ -44,11 +49,28 @@ body {
         0 0 0.2em #1d99f7;
 }
 
+#landing-button {
+  background: black;
+  text-shadow: 0 0 0.2em #1d99f7, 0 0 0.2em #1d99f7,
+        0 0 0.2em #1d99f7;
+}
 
-@media (min-width: @screen-sm-min) {
+/*small devices*/
+@media (min-width: 768px) {
+  #landing-logo {
+    width: 75vw;
+  }
+
+  .nav li {
+    font-size: 18px;
+    text-align: left;
+  }
 
  }
 
-@media (min-width: @screen-md-min) {
-
-}
+ /*meidum devices / desktops*/
+ @media (min-width: 992px) {
+   #landing-logo {
+     width: 50vw;
+   }
+  }
