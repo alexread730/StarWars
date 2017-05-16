@@ -52,14 +52,32 @@ function makePlanetList(planet) {
     event.preventDefault();
     $('.loading').show();
     let index = $(this).attr('data-index');
+    let residents = planetArray[index].residents;
     // getAvatar(index);
-    // let homeworldURL = planetArray[index].homeworld;
-    // let speciesURL = charArray[index].species[0];
-    // let films = charArray[index].films;
-    // $('#name').text(charArray[index].name);
-    // $('#born').text("Born: " + charArray[index].birth_year);
-    // getHomeworld(homeworldURL);
-    // getSpecies(speciesURL);
-    // getFilms(films);
+    $('#name').text(planetArray[index].name);
+    $('#population').text(`Population: ${planetArray[index].population}`);
+    $('#climate').text(`Climate: ${planetArray[index].climate}`);
+    $('#terrain').text(`Terrain: ${planetArray[index].terrain}`);
+    $('#diameter').text(`Diameter: ${planetArray[index].diameter}`);
+    $('#terrain').text(`Terrain: ${planetArray[index].climate}`);
+    $('#gravity').text(`gravity: ${planetArray[index].gravity}`);
+
+    getResidents(residents);
 
   });
+
+  function getResidents(residents) {
+    $('#residents').empty();
+    if (residents.length) {
+      for (var i = 0; i < residents.length; i++) {
+        $.getJSON(residents[i].replace(/http/, 'https'))
+          .then(function(response) {
+            $('#residents').append(`<li>${response.name}</li>`);
+            $('.loading').hide();
+          });
+      }
+    } else {
+      $('.loading').hide();
+      $('#residents-title').text('Residents: None');
+    }
+  }

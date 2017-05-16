@@ -40,7 +40,7 @@ body {
   margin: 0 auto;
 }
 
-#name, #born, #species, #films, #homeworld, h4{
+#name, #born, #species, #films, #homeworld, #residents, h4{
   color: #31B0D5;
   text-shadow: 0 0 3em #1d99f7, 0 0 0.2em #1d99f7,
         0 0 0.2em #1d99f7;
