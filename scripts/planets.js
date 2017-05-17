@@ -3,8 +3,6 @@ let planetArray = [];
 let planetNum = 0;
 
 getPlanets();
-console.log('good to go!');
-
 
 function getPlanets() {
   const promises = [];
@@ -34,26 +32,27 @@ function makePlanetsArray(page) {
 
 function makePlanetList(planet) {
    let avatar = "";
-  // $.get('./scripts/character-images.json')
-  // .then( function(imageArray){
-  //   imageArray.find(function(imageObj){
-  //     if (character.name == imageObj.name) {
-  //       avatar = imageObj.image;
-  //     }
-  //   });
-    //append list of characters to page
-    $('.list-group').append(
-      `<button type="button" data-index=${planetNum} class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="${avatar}" width="50%" height="auto"><br />${planet.name}</button>`);
-    planetNum++;
-  // });
-  }
+  $.get('./scripts/planet-images.json')
+    .then(function(imageArray){
+               console.log('hi');
+      imageArray.find(function(imageObj){
+        if (planet.name == imageObj.name) {
+          avatar = imageObj.image;
+        }
+      });
+      //append list of characters to page
+      $('.list-group').append(
+        `<button type="button" data-index=${planetNum} class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="${avatar}" width="50%" height="auto"><br />${planet.name}</button>`);
+      planetNum++;
+    });
+}
 
   $('.list-group').on('click', '.btn', function() {
     event.preventDefault();
     $('.loading').show();
     let index = $(this).attr('data-index');
     let residents = planetArray[index].residents;
-    // getAvatar(index);
+    getAvatar(index);
     $('#name').text(planetArray[index].name);
     $('#population').text(`Population: ${planetArray[index].population}`);
     $('#climate').text(`Climate: ${planetArray[index].climate}`);
@@ -65,6 +64,19 @@ function makePlanetList(planet) {
     getResidents(residents);
 
   });
+
+  function getAvatar(index) {
+    $('.planet-avatar').empty();
+    $.get('./scripts/planet-images.json')
+      .then(function(imageArray){
+
+        imageArray.find(function(imageObj){
+        if (planetArray[index].name == imageObj.name) {
+          $('.planet-avatar').append(`<img src="${imageObj.image}">`);
+        }
+        });
+    });
+  }
 
   function getResidents(residents) {
     $('#residents').empty();
