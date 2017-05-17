@@ -54,7 +54,7 @@ body {
 }
 
 .character-avatar img {
-  width: auto;
+  width: 75%;
   max-height: 200px;
   display: block;
   margin: 5px 20px;

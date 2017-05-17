@@ -5,298 +5,308 @@
     "image": "https://vignette1.wikia.nocookie.net/starwars/images/4/4a/Alderaan.jpg/revision/latest/scale-to-width-down/500?cb=20061211013805"
   },
   {
-    "index": "",
+    "index": "1",
+    "name": "Yavin IV",
+    "image": "https://vignette4.wikia.nocookie.net/starwars/images/a/a0/Eaw_Yavin4.jpg/revision/latest/scale-to-width-down/350?cb=20060418114439"
+  },
+  {
+    "index": "2",
+    "name": "Hoth",
+    "image": "https://vignette4.wikia.nocookie.net/starwars/images/1/1d/Hoth_SWCT.png/revision/latest/scale-to-width-down/500?cb=20160630022322"
+  },
+  {
+    "index": "3",
+    "name": "Degobah",
+    "image": "https://vignette2.wikia.nocookie.net/starwars/images/4/48/Dagobah_ep3.jpg/revision/latest/scale-to-width-down/500?cb=20100122163146"
+  },
+  {
+    "index": "4",
+    "name": "Bespin",
+    "image": "https://s-media-cache-ak0.pinimg.com/736x/fc/54/bc/fc54bcfb5214284222c6da108ab43d83.jpg"
+  },
+  {
+    "index": "5",
+    "name": "Endor",
+    "image": "http://www.bricksandbloks.com/wp-content/uploads/2013/05/Star-Wars-Return-of-the-Jedi-Ewok-Village-Screenshot-e1369839176922.jpg"
+  },
+  {
+    "index": "6",
+    "name": "Naboo",
+    "image": "http://vignette2.wikia.nocookie.net/starwars/images/e/eb/Theedroyalpalace.png/revision/latest?cb=20130719122716"
+  },
+  {
+    "index": "7",
+    "name": "Coruscant",
+    "image": "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia-cache-ec0.pinimg.com%2F736x%2F11%2F64%2Ff5%2F1164f583a466ceca6d27ceef89fc6358.jpg&f=1"
+  },
+  {
+    "index": "8",
+    "name": "Kamino",
+    "image": "http://media.moddb.com/cache/images/groups/1/5/4674/thumb_620x2000/Amazing-Star-Wars-1208.jpg"
+  },
+  {
+    "index": "9",
+    "name": "Geonosis",
+    "image": "http://static.planetminecraft.com/files/resource_media/screenshot/1223/Geonosis_1591944_2484078.jpg"
+  },
+  {
+    "index": "10",
+    "name": "Utapau",
+    "image": "https://vignette4.wikia.nocookie.net/starwars/images/c/ce/UtapauRotS.png/revision/latest/scale-to-width-down/350?cb=20160118063015"
+  },
+  {
+    "index": "11",
+    "name": "Mustafar",
+    "image": "http://media.moddb.com/images/members/1/431/430710/Ultimate_Mustafar_Wallpaper.jpg"
+  },
+  {
+    "index": "12",
+    "name": "Kashyyyk",
+    "image": "http://3.bp.blogspot.com/-QqdOQ_fqjB8/Vj2jaCYP1RI/AAAAAAAAD9w/HUHsm70uU5s/s1600/Kashyyyk_Atlas.jpg"
+  },
+  {
+    "index": "13",
+    "name": "Polis Massa",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/databank_polismassa_01_169_21f04b76.jpeg?region=683%2C0%2C877%2C878&width=320"
+  },
+  {
+    "index": "14",
+    "name": "Mygeeto",
+    "image": "http://cdn-media-5.hollywood.com/images/638x425/2517891.jpg"
+  },
+  {
+    "index": "15",
+    "name": "Felucia",
+    "image": "http://orig04.deviantart.net/5954/f/2008/216/0/2/felucia_by_tmargato.jpg"
+  },
+  {
+    "index": "16",
+    "name": "Cato Neimoidia",
+    "image": "http://1.bp.blogspot.com/_Dncc-ml7iPw/THPkG5HYIjI/AAAAAAAACPs/6RUJvGtZzqQ/s1600/mountain_temple_small.jpg"
+  },
+  {
+    "index": "17",
+    "name": "Saleucami",
+    "image": "http://www.nexusroute.co.uk/wp-content/uploads/2013/03/ep210conceptart02.jpg"
+  },
+  {
+    "index": "18",
+    "name": "Stewjon",
+    "image": "http://vignette1.wikia.nocookie.net/starwars/images/0/0a/Planet04-SWR.png/revision/latest?cb=20090730022904"
+  },
+  {
+    "index": "19",
+    "name": "Eriadu",
+    "image": "http://media.moddb.com/images/members/1/459/458852/Eriadu.jpg"
+  },
+  {
+    "index": "20",
+    "name": "Corellia",
+    "image": "http://vignette1.wikia.nocookie.net/starwars/images/7/7f/Corellia_SOF.png/revision/latest/scale-to-width-down/500?cb=20160308053946"
+  },
+  {
+    "index": "21",
+    "name": "Rodia",
+    "image": "https://geeksincebirth.files.wordpress.com/2012/02/rodia.jpg"
+  },
+  {
+    "index": "22",
+    "name": "Nal Hutta",
+    "image": "http://img3.wikia.nocookie.net/__cb20100313054925/starwars/images/4/45/Hutta-TOR.jpg"
+  },
+  {
+    "index": "23",
+    "name": "Dantooine",
+    "image": "http://static2.wikia.nocookie.net/__cb20070824233757/jedipedia/de/images/e/eb/Dantooine-Landschaft1.jpg"
+  },
+  {
+    "index": "24",
+    "name": "Bestine IV",
+    "image": "https://vignette2.wikia.nocookie.net/starwars/images/d/d2/Bestine_eaw.jpg/revision/latest?cb=20070706033018"
+  },
+  {
+    "index": "25",
+    "name": "Ord Mantell",
+    "image": "https://vignette1.wikia.nocookie.net/starwars/images/3/36/Ord_Mantell_EotECR.png/revision/latest/scale-to-width-down/500?cb=20170222012958"
+  },
+  {
+    "index": "26",
+    "name": "unknown",
+    "image": ""
+  },
+  {
+    "index": "27",
+    "name": "Trandosha",
+    "image": "https://vignette1.wikia.nocookie.net/starwars/images/4/40/Trandosha-PL.png/revision/latest/scale-to-width-down/500?cb=20130530013144"
+  },
+  {
+    "index": "28",
+    "name": "Socorro",
+    "image": "http://media-cache-ak0.pinimg.com/736x/ca/ee/db/caeedbc8d1e74b16f91122b3a30e97cc.jpg"
+  },
+  {
+    "index": "29",
+    "name": "Mon Cala",
+    "image": "https://vignette2.wikia.nocookie.net/starwars/images/1/1d/Mon_Calamari.png/revision/latest?cb=20150801202030"
+  },
+  {
+    "index": "30",
+    "name": "Chandrila",
+    "image": "http://img4.wikia.nocookie.net/__cb20050812141320/starwars/images/c/c0/Chandrila_JA.png"
+  },
+  {
+    "index": "31",
+    "name": "Sullust",
+    "image": "https://vignette4.wikia.nocookie.net/starwars/images/7/72/Sullust_DICE.png/revision/latest?cb=20151106041909"
+  },
+  {
+    "index": "32",
+    "name": "Toydaria",
+    "image": "http://farm5.staticflickr.com/4128/5027244552_648931d922_z.jpg"
+  },
+  {
+    "index": "33",
+    "name": "Malastare",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/databank_malastare_01_169_59df245f.jpeg?region=0%2C0%2C1560%2C878&width=600"
+  },
+  {
+    "index": "34",
+    "name": "Dathomir",
+    "image": "http://25.media.tumblr.com/tumblr_m37mosWxwV1r3kvzio1_1280.jpg"
+  },
+  {
+    "index": "35",
+    "name": "Ryloth",
+    "image": "http://img1.wikia.nocookie.net/__cb20121005163904/starwars/images/4/41/Lessu_city.png"
+  },
+  {
+    "index": "36",
+    "name": "Aleen Minor",
+    "image": "https://vignette3.wikia.nocookie.net/starwars/images/f/f6/Aleen_NEGAS.jpg/revision/latest/scale-to-width-down/500?cb=20070630172856"
+  },
+  {
+    "index": "37",
+    "name": "Vulpter",
+    "image": "http://vignette3.wikia.nocookie.net/starwars/images/b/be/Vulpter_FF7.jpg/revision/latest/scale-to-width-down/500?cb=20070628190912"
+  },
+  {
+    "index": "38",
     "name": "",
     "image": ""
   },
   {
-    "index": "",
-    "name": "",
+    "index": "39",
+    "name": "Troiken",
+    "image": "http://vignette1.wikia.nocookie.net/aliens/images/8/8d/Felucia.jpg/revision/latest?cb=20090601235837"
+  },
+  {
+    "index": "40",
+    "name": "Tund",
+    "image": "http://www.christrevas.com/starwars/portfolio_starwars/tund.jpg"
+  },
+  {
+    "index": "41",
+    "name": "Haruun Kal",
+    "image": "http://img2.wikia.nocookie.net/__cb20120309222948/starwarsofthecaribbean/images/6/6f/Jungle_Planet_Resource.jpg"
+  },
+  {
+    "index": "42",
+    "name": "Cerea",
+    "image": "http://www.trinitynewsdaily.com/wp-content/uploads/2015/03/ceres.jpg"
+  },
+  {
+    "index": "43",
+    "name": "Glee Anselm",
+    "image": "http://i.imgur.com/OwvF3cA.jpg"
+  },
+  {
+    "index": "44",
+    "name": "Iridonia",
+    "image": "http://images2.wikia.nocookie.net/__cb20070228211852/swfanon/images/c/c5/Iridonia.jpg"
+  },
+  {
+    "index": "45",
+    "name": "Tholoth",
     "image": ""
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "46",
+    "name": "Iktotch",
+    "image": "http://vignette3.wikia.nocookie.net/fr.starwars/images/c/c2/Iktotch.jpg/revision/latest?cb=20150515071958"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "47",
+    "name": "Quermia",
+    "image": "http://vignette2.wikia.nocookie.net/starwars/images/2/29/Quermia_NEGAS.jpg/revision/latest/scale-to-width-down/400?cb=20070701083603"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "48",
+    "name": "Dorin",
+    "image": "http://images1.wikia.nocookie.net/__cb20061114221632/starwars/images/8/8d/Dorin_NEGAS.jpg"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "49",
+    "name": "Champala",
+    "image": "http://images.wikia.com/starwars/images/d/d7/Champala_NEGAS.jpg"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "50",
+    "name": "Mirial",
+    "image": "http://img2.wikia.nocookie.net/__cb20121031031342/swtor/images/e/e0/Mirial.jpg"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "51",
+    "name": "Serenno",
+    "image": "https://vignette1.wikia.nocookie.net/starwars/images/b/b2/Serenno-Massacre.png/revision/latest/scale-to-width-down/500?cb=20130607043719"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "52",
+    "name": "Concord Dawn",
+    "image": "http://eleven-thirtyeight.com/wp-content/uploads/2016/02/lolasayu.png"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "53",
+    "name": "Zolan",
+    "image": "http://images2.wikia.nocookie.net/__cb20070701111502/starwars/images/6/66/Zolan.jpg"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "54",
+    "name": "Ojom",
+    "image": "http://img2.wikia.nocookie.net/__cb20061119201000/starwars/images/9/9f/Ojom.jpg"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "55",
+    "name": "Skako",
+    "image": "https://s-media-cache-ak0.pinimg.com/736x/74/c5/41/74c5418e345caf41cfe7ae20498d971a.jpg"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "56",
+    "name": "Muunilist",
+    "image": "http://img3.wikia.nocookie.net/__cb20071221131608/starwars/images/1/19/Muunilinst.jpg"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "57",
+    "name": "Shili",
+    "image": "http://img2.wikia.nocookie.net/__cb20061126102716/starwars/images/b/b8/ShiliNEGAS.jpg"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "58",
+    "name": "Kalee",
+    "image": "https://vignette2.wikia.nocookie.net/starwars/images/0/08/KaleePlanet.jpg/revision/latest?cb=20061118121433"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "59",
+    "name": "Umbara",
+    "image": "http://media.moddb.com/images/downloads/1/89/88537/umbpic_003.jpg"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "60",
+    "name": "Tatooine",
+    "image": "http://4.bp.blogspot.com/-8r_iMimGAso/ToliFnrSyII/AAAAAAAAIWI/Ur6VRn_3s3A/s1600/StarWarsIV_120Pyxurz.jpg"
   },
   {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
-  },
-  {
-    "index": "",
-    "name": "",
-    "image": ""
+    "index": "61",
+    "name": "Jakku",
+    "image": "http://img.lum.dolimg.com/v1/images/mr0170_a69c0abe.jpeg?region=0%2C0%2C666%2C664&width=320"
   }
 ]
