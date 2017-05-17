@@ -1,0 +1,43 @@
+#viewport {
+  -webkit-perspective:100px;
+  -webkit-perspective-origin:50% -100%;
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  left:50%;
+  margin-left:-200px;
+  position:fixed;
+}
+
+.box {
+  position:absolute;
+  width:100px;
+  height:100px;
+  left:50%;
+  top:50%;
+  margin-left:-50px;
+  margin-top:-50px;
+  color: #FFE81F;
+  text-align: center;
+}
+
+#a {
+  background-color:#1d99f7;
+  border:2px solid red;
+  -webkit-transform:translateZ(-200px)
+
+}
+#b {
+  background-color:#1d99f7;
+  border:2px solid green;
+  -webkit-transform:translateZ(-50px)
+}
+#c {
+ background-color:#1d99f7;
+ border:2px solid blue;
+ -webkit-transform:translateZ(0px)
+}
+
+body {
+  height:800px;
+}
