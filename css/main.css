@@ -1,11 +1,12 @@
+
 .btn-group {
   margin-left: 40px;
-
 }
 
 .btn-info img {
   display: none;
 }
+
 
 .nav li {
   font-size: 18px;
@@ -54,11 +55,18 @@ body {
   margin-left: 50px;
 }
 
+
 .character-avatar img {
-  width: 75%;
+  /*width: 75%;*/
   max-height: 400px;
   display: block;
   margin: 5px 20px;
+}
+.cropper {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .planet-avatar img {
@@ -99,7 +107,7 @@ body {
   }
 
   .character-avatar img {
-    width: auto;
+    /*width: auto;*/
     max-height: 300px;
     display: block;
     float: right;
@@ -123,7 +131,7 @@ body {
    }
 
    .character-avatar img {
-     width: auto;
+     /*width: auto;*/
      max-height: 400px;
      display: block;
      float: right;

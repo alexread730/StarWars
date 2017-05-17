@@ -71,7 +71,7 @@ $(document).ready(function() {
     .then(function(imageArray){
       imageArray.find(function(imageObj){
         if (charArray[index].name == imageObj.name) {
-          $('.character-avatar').append(`<img src="${imageObj.image}">`);
+          $('.character-avatar').append(`<img class='cropper' src="${imageObj.image}">`);
         }
       });
     });

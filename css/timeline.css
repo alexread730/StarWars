@@ -1,43 +1,51 @@
 #viewport {
   -webkit-perspective:100px;
-  -webkit-perspective-origin:50% -100%;
+  -webkit-perspective-origin:50% -75%;
   border: 2px solid black;
   height: 400px;
   width: 400px;
-  left:50%;
+  left: 50%;
   margin-left:-200px;
   position:fixed;
 }
 
 .box {
-  position:absolute;
-  width:100px;
-  height:100px;
+  position: absolute;
+  padding: 5px;
   left:50%;
   top:50%;
-  margin-left:-50px;
+  margin-left:-150px;
   margin-top:-50px;
   color: #FFE81F;
   text-align: center;
+  font-size: 14px;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  max-width: 50%;
+  background-color: black;
 }
 
-#a {
-  background-color:#1d99f7;
-  border:2px solid red;
-  -webkit-transform:translateZ(-200px)
-
-}
-#b {
-  background-color:#1d99f7;
-  border:2px solid green;
-  -webkit-transform:translateZ(-50px)
-}
-#c {
- background-color:#1d99f7;
- border:2px solid blue;
- -webkit-transform:translateZ(0px)
+.a {
+  margin-right: 210px;
 }
 
+.b {
+  margin-left: 10px;
+}
+
+/*
 body {
-  height:800px;
+  height:500px;
+}*/
+
+.verticalLine {
+  border-left: 2px solid #1d99f7;
+  height: 200%;
+  position: absolute;
+  margin-left: 50%;
+  -webkit-box-shadow:0 0 30px #1d99f7;
+  -moz-box-shadow: 0 0 30px #1d99f7;
+  box-shadow:0 0 30px #1d99f7;
+  opacity: .75;
+
 }
