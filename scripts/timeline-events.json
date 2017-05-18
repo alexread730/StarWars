@@ -2,41 +2,57 @@
   {
     "time": 1,
     "name": "Episode1",
-    "text": "<div class='box a'><h3>32 BBY</h3>Episode I: The Phantom Menace</div>"
+    "text": "<button type='button' class='box a' id='episode1' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>32 BBY</h3>Episode I: The Phantom Menace</button>",
+    "event-description": ""
   },
   {
-    "time": 2,
+    "time": 10,
     "name": "HIDDEN",
-    "text": "<div class='box hidden'><h3>HIDDEN</h3></div>"
+    "text": "<button class='box hidden'><h3>HIDDEN</h3></button>"
   },
   {
     "time": 1,
     "name": "Episode2",
-    "text": "<div class='box b'><h3>22 BBY</h3>Episode II: The Clone Wars</div>"
+    "text": "<button class='box b'><h3>22 BBY</h3>Episode II: The Clone Wars</button>"
   },
   {
     "time": 1,
     "name": "Episode3",
-    "text": "<div class='box a'><h3>19 BBY</h3>Episode III: The Revenge of the Sith</div>"
+    "text": "<button class='box a'><h3>19 BBY</h3>Episode III: The Revenge of the Sith</button>"
   },
   {
-    "time": 4,
+    "time": 19,
     "name": "HIDDEN",
-    "text": "<div class='box hidden'><h3>HIDDEN</h3></div>"
+    "text": "<button class='box hidden'><h3>HIDDEN</h3></button>"
   },
   {
     "time": 1,
     "name": "Episode4",
-    "text": "<div class='box b'><h3>0 BBY/0 ABY</h3>Episode IV: A New Hope</div>"
+    "text": "<button class='box b'><h3>0 BBY/0 ABY</h3>Episode IV: A New Hope</button>"
+  },
+  {
+    "time": 3,
+    "name": "HIDDEN",
+    "text": "<button class='box hidden'><h3>HIDDEN</h3></button>"
   },
   {
     "time": 1,
     "name": "Episode5",
-    "text": "<div class='box a'><h3>3 ABY</h3>Episode V: The Empire Strikes Back</div>"
+    "text": "<button class='box a'><h3>3 ABY</h3>Episode V: The Empire Strikes Back</button>"
   },
   {
     "time": 1,
     "name": "Episode6",
-    "text": "<div class='box b'><h3>4 ABY</h3>Episode VI: The Return of the Jedi</div>"
+    "text": "<button class='box b'><h3>4 ABY</h3>Episode VI: The Return of the Jedi</button>"
+  },
+  {
+    "time": 30,
+    "name": "HIDDEN",
+    "text": "<button class='box hidden'><h3>HIDDEN</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Episode7",
+    "text": "<button class='box b'><h3>34 ABY</h3>Episode VII: The Force Awakens</button>"
   }
 ]

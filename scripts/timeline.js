@@ -1,15 +1,16 @@
 $(document).ready(function() {
-  let bodyHeight = 200;
+  let bodyHeight = 650;
   let position = 0;
   let boxPositions = [];
   $.get('./scripts/timeline-events.json')
     .then(function(eventArray) {
       eventArray.forEach(function(event) {
         for (let i=0; i<event.time; i++){
-          $('body').height(bodyHeight -= 10);
+          //adjust page height
+          $('body').height(bodyHeight+=15.5);
           $('#viewport').prepend(event.text);
-          //adjust spacing for each hidden below
-          position -= (55);
+          //adjust spacing for each event below
+          position -= (10);
           boxPositions.push(position);
         }
       });
@@ -39,6 +40,13 @@ $(document).ready(function() {
       $('.verticalLine').hide()
       $('.box').fadeIn(2000);
       $('.verticalLine').fadeIn(2000);
+
+      $('.box').on('click', function() {
+      //   console.log(this.id);
+      //   if (this.id === "episode1") {
+      //     alert('hi');
+      //   }
+      });
 
     });
 });

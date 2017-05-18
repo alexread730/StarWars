@@ -72,7 +72,7 @@ function makePlanetList(planet) {
 
         imageArray.find(function(imageObj){
         if (planetArray[index].name == imageObj.name) {
-          $('.planet-avatar').append(`<img src="${imageObj.image}">`);
+          $('.planet-avatar').append(`<img class="cropper" src="${imageObj.image}">`);
         }
         });
     });

@@ -1,8 +1,8 @@
 #viewport {
   -webkit-perspective:100px;
-  -webkit-perspective-origin:50% -75%;
+  -webkit-perspective-origin:50% -100%;
   border: 2px solid black;
-  height: 400px;
+  height: 300px;
   width: 400px;
   left: 50%;
   margin-left:-200px;
@@ -33,15 +33,19 @@
   margin-left: 10px;
 }
 
-/*
 body {
-  height:500px;
-}*/
+  height: 1000px;
+}
+
+p {
+  padding: 10px;
+}
+
 
 .verticalLine {
   border-left: 2px solid #1d99f7;
-  height: 200%;
-  position: absolute;
+  height: 150%;
+  position: fixed;
   margin-left: 50%;
   -webkit-box-shadow:0 0 30px #1d99f7;
   -moz-box-shadow: 0 0 30px #1d99f7;
