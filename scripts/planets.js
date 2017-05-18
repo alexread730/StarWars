@@ -69,14 +69,23 @@ function makePlanetList(planet) {
   $('#search').on('click', function(event) {
     event.preventDefault();
     let searchVal = $('#search-input').val();
+    $('.btn-info').hide();
     $.get(SEARCH_URL + searchVal)
-      .then(function(response) {
-        $('.btn-info').hide();
-        console.log(response.results);
-        planetNum = 0;
-        response.results.forEach(makePlanetList);
-      });
+      .then(showSearchResults);
   });
+
+  function showSearchResults(response) {
+    let searchArray = response.results;
+    searchArray.forEach(function(planet) {
+      let name = planet.name;
+      let matchIndex = planetArray.findIndex(function(planet) {
+        return planet.name == name;
+      });
+      planetNum = matchIndex;
+      $('.list-group').append(
+        `<button type="button" data-index=${planetNum} class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="" width="50%" height="auto"><br />${name}</button>`);
+    });
+  }
 
   function getAvatar(index) {
     $('.planet-avatar').empty();

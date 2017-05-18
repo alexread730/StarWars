@@ -68,23 +68,23 @@ $(document).ready(function() {
   $('#search').on('click', function(event) {
     event.preventDefault();
     let searchVal = $('#search-input').val();
+    $('.btn-info').hide();
     $.get(SEARCH_URL + searchVal)
-      .then(function(response) {
-        $('.btn-info').hide();
-        let searchArray = response.results;
-        console.log(searchArray);
-
-        searchArray.forEach(function(person) {
-          let name = person.name;
-          let matchIndex = charArray.findIndex(function(character) {
-            return character.name == name;
-          });
-          charNum = matchIndex;
-          $('.list-group').append(
-            `<button type="button" data-index=${charNum} class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="" width="50%" height="auto"><br />${name}</button>`);
-        });
-      });
+      .then(showSearchResults);
   });
+
+  function showSearchResults(response) {
+    let searchArray = response.results;
+    searchArray.forEach(function(person) {
+      let name = person.name;
+      let matchIndex = charArray.findIndex(function(character) {
+        return character.name == name;
+      });
+      charNum = matchIndex;
+      $('.list-group').append(
+        `<button type="button" data-index=${charNum} class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="" width="50%" height="auto"><br />${name}</button>`);
+    });
+  }
 
   function getAvatar(index) {
     $('.character-avatar').empty();
