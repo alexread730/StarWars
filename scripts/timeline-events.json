@@ -8,7 +8,7 @@
   {
     "time": 10,
     "name": "HIDDEN",
-    "text": "<button class='box hidden'><h3>HIDDEN</h3></button>"
+    "text": "<button class='box'><h3>HIDDEN</h3></button>"
   },
   {
     "time": 1,
@@ -23,7 +23,7 @@
   {
     "time": 19,
     "name": "HIDDEN",
-    "text": "<button class='box hidden'><h3>HIDDEN</h3></button>"
+    "text": "<button class='box'><h3>HIDDEN</h3></button>"
   },
   {
     "time": 1,
@@ -33,7 +33,7 @@
   {
     "time": 3,
     "name": "HIDDEN",
-    "text": "<button class='box hidden'><h3>HIDDEN</h3></button>"
+    "text": "<button class='box'><h3>HIDDEN</h3></button>"
   },
   {
     "time": 1,

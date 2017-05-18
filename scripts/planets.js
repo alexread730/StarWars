@@ -1,4 +1,5 @@
 const PLANETS_URL = 'https://swapi.co/api/planets/?page=';
+const SEARCH_URL = 'https://swapi.co/api/planets/?search=';
 let planetArray = [];
 let planetNum = 0;
 
@@ -34,7 +35,6 @@ function makePlanetList(planet) {
    let avatar = "";
   $.get('./scripts/planet-images.json')
     .then(function(imageArray){
-               console.log('hi');
       imageArray.find(function(imageObj){
         if (planet.name == imageObj.name) {
           avatar = imageObj.image;
@@ -51,6 +51,7 @@ function makePlanetList(planet) {
     event.preventDefault();
     $('.loading').show();
     let index = $(this).attr('data-index');
+    console.log(planetArray);
     let residents = planetArray[index].residents;
     getAvatar(index);
     $('#name').text(planetArray[index].name);
@@ -63,6 +64,18 @@ function makePlanetList(planet) {
 
     getResidents(residents);
 
+  });
+
+  $('#search').on('click', function(event) {
+    event.preventDefault();
+    let searchVal = $('#search-input').val();
+    $.get(SEARCH_URL + searchVal)
+      .then(function(response) {
+        $('.btn-info').hide();
+        console.log(response.results);
+        planetNum = 0;
+        response.results.forEach(makePlanetList);
+      });
   });
 
   function getAvatar(index) {
