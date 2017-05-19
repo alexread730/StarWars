@@ -12,6 +12,81 @@
   },
   {
     "time": 1,
+    "name": "Beginning",
+    "text": "<button type='button' class='box image-logo beginning' id='0'>c.10,000 BBY</button>"
+  },
+  {
+    "time": 1,
+    "name": "Hyperspace",
+    "text": "<button class='box a c'><h3></h3>Ancestral species unlock the secrets of hyperspace travel and open the galaxy for exploration</button>"
+  },
+  {
+    "time": 1,
+    "name": "Jedi",
+    "text": "<button class='box b c'><h3></h3>Force sensitives gather to form the Jedi Order, dedicated to the preservation of peace and justice.</button>"
+  },
+  {
+    "time": 3,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Sith",
+    "text": "<button class='box a c'><h3></h3>Malevolent Force users split from the Jedi Order, forming the sith</button>"
+  },
+  {
+    "time": 3,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Jedi Beat Sith",
+    "text": "<button class='box b c'><h3>6021 BBY</h3>Jedi destroy the Sith shrine on Coruscant. The Jedi build the Jedi Temple upon the shrine's foundations</button>"
+  },
+  {
+    "time": 3,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Jedi Beat Sith Again",
+    "text": "<button class='box a c'><h3>1032 BBY</h3>Jedi beat the Sith during teh Jedi-Sith war - sith driven into hiding. The Old Republic collapses.</button>"
+  },
+  {
+    "time": 1,
+    "name": "Jedi Beat Sith Again",
+    "text": "<button class='box b c'><h3>1032 BBY</h3>Darth Bane establishes the Rule of Two</button>"
+  },
+  {
+    "time": 5,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Yoda Born",
+    "text": "<button class='box a c'><h3>896 BBY</h3>Yoda is born on an unknown planet</button>"
+  },
+  {
+    "time": 5,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Beginning",
+    "text": "<button type='button' class='box image-logo beginning' id='0'>Many years later....</button>"
+  },
+  {
+    "time": 3,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
     "name": "Episode1",
     "text": "<button type='button' class='box a' id='1' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>32 BBY</h3>Episode I: The Phantom Menace</button>",
     "description": "<h3>Episode 1: The Phantom Menace</h3><ul><h5>Invasion of Naboo</h5><li>Queen Amidala returns to Naboo and forms an alliance between the Naboo and Gungans</li><li>The Gungans engage the droid army while the Queen and her security force capture the leaders of the Trade Federation</li><li>Qui-Gon Jinn is killed by Darth Maul, who, in turn, is cut in half by Obi-Wan Kenobi but survives</li><li>Senator Sheev Palpatine is elected Supreme Chancellor of the Republic, replacing Finis Valorum.</li><li>The Jedi Council promotes Obi-Wan Kenobi to the rank of Jedi Knight and permits him to train Anakin Skywalker as a Jedi</li></ul>"
