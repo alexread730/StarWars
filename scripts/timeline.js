@@ -1,20 +1,21 @@
 $(document).ready(function() {
-  let bodyHeight = 650;
+  let bodyHeight = $(window).height() +10;
   let position = 0;
   let boxPositions = [];
   let descriptions = [];
+
   $.get('./scripts/timeline-events.json')
     .then(function(eventArray) {
       eventArray.forEach(function(event) {
         for (let i=0; i<event.time; i++){
           //adjust page height
-          $('body').height(bodyHeight+=15.5);
+          $('body').height(bodyHeight+=8);
           $('#viewport').prepend(event.text);
           if (event.description) {
             descriptions.push(event.description);
           }
           //adjust spacing for each event below
-          position -= (10);
+          position -= (8);
           boxPositions.push(position);
         }
       });

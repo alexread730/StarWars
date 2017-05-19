@@ -2,69 +2,185 @@
   {
     "time": 1,
     "name": "Episode1",
-    "text": "<button type='button' class='box a' id='0' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>32 BBY</h3>Episode I: The Phantom Menace</button>",
-    "description": "<h3>Episode 1: The Phantom Menace</h3><ul><li>Queen Amidala returns to Naboo and forms an alliance between the Naboo and Gungans</li><li>The Gungans engage the droid army while the Queen and her security force capture the leaders of the Trade Federation</li><li>Qui-Gon Jinn is killed by Darth Maul, who, in turn, is cut in half by Obi-Wan Kenobi but survives</li><li>Senator Sheev Palpatine is elected Supreme Chancellor of the Republic, replacing Finis Valorum.</li><li>The Jedi Council promotes Obi-Wan Kenobi to the rank of Jedi Knight and permits him to train Anakin Skywalker as a Jedi</li></ul>"
+    "text": "<button type='button' class='box image-logo' id='0'><img src='./imgs/starwars-logo.png'><img class='timeline-pic' src='./imgs/timeline.png'></button>",
+    "description": "<h1>STAR WARS</h1>"
   },
   {
     "time": 10,
     "name": "HIDDEN",
-    "text": "<button class='box hidden'><h3>HIDDEN</h3></button>"
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Episode1",
+    "text": "<button type='button' class='box a' id='1' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>32 BBY</h3>Episode I: The Phantom Menace</button>",
+    "description": "<h3>Episode 1: The Phantom Menace</h3><ul><h5>Invasion of Naboo</h5><li>Queen Amidala returns to Naboo and forms an alliance between the Naboo and Gungans</li><li>The Gungans engage the droid army while the Queen and her security force capture the leaders of the Trade Federation</li><li>Qui-Gon Jinn is killed by Darth Maul, who, in turn, is cut in half by Obi-Wan Kenobi but survives</li><li>Senator Sheev Palpatine is elected Supreme Chancellor of the Republic, replacing Finis Valorum.</li><li>The Jedi Council promotes Obi-Wan Kenobi to the rank of Jedi Knight and permits him to train Anakin Skywalker as a Jedi</li></ul>"
+  },
+  {
+    "time": 9,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
   },
   {
     "time": 1,
     "name": "Episode2",
-    "text": "<button class='box b' id='1' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>22 BBY</h3>Episode II: The Clone Wars</button>",
+    "text": "<button class='box b' id='2' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>22 BBY</h3>Episode II: The Clone Wars</button>",
     "description" : "<h3>Episode 2: Attack of the Clones</h3><li>Separatist Crisis: Thousands of star systems leave the Republic and join the Confederacy of Independent Systems and Count Dooku.</li><li>The Galactic Senate debates the Military Creation Act to determine whether the Galactic Republic should raise an army.</li><li>Plot to assassinate Padmé Amidala: Separatist leaders hope to silence the senator from Naboo, who opposes the Military Creation Act.</li><li>Obi-Wan Kenobi missions to Kamino and discovers a clone army built for the Republic.</li><li>Jar Jar Binks proposes that Chancellor Palpatine be given emergency powers to raise an army without the interference of the Senate.</li><li>The Clone Wars begin with the Battle of Geonosis. Jango Fett kills Coleman Trebor. Mace Windu kills Jango Fett in the fighting and many Jedi are killed in an attempt to rescue Obi-Wan Kenobi, Anakin Skywalker, and Padmé Amidala from execution.</li><li>Anakin Skywalker and Padmé Amidala are secretly wed on Naboo.</li><li>Anakin Skywalker and Obi-Wan Kenobi send supplies to Bail Organa and his relief effort on Christophsis.</li><li>Rotta the Hutt is kidnapped by the Separatists in an attempt to get the Republic on the Hutt's bad side.</li><li>Ahsoka Tano becomes Anakin Skywalker's Padawan.</li><br />"
+  },
+  {
+    "time": 2,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
   },
   {
     "time": 1,
     "name": "Episode3",
-    "text": "<button class='box a' id='2' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>19 BBY</h3>Episode III: The Revenge of the Sith</button>",
+    "text": "<button class='box a' id='3' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>19 BBY</h3>Episode III: The Revenge of the Sith</button>",
     "description": "<h3>Episode III: The Revenge of the Sith</h3><li>Luke Skywalker and Leia Organa are born to Padmé Amidala on Polis Massa.</li><li>Padmé Amidala dies in childbirth. Obi-Wan Kenobi, who survived Order 66, leaves Luke with Anakin's stepbrother Owen Lars on Tatooine while Bail Organa adopts Leia, in order to protect them from Darth Sidious and their father.</li><li>Obi-Wan Kenobi goes into exile on Tatooine. Yoda goes into exile on Dagobah.</li><br />"
   },
   {
-    "time": 19,
+    "time": 1,
+    "name": "Rebellion Organization",
+    "text": "<button class='box b'><h3>18 BBY</h3>Bail Organa and Ahsoka Tano organize a rebel network</button>"
+  },
+  {
+    "time": 3,
     "name": "HIDDEN",
-    "text": "<button class='box hidden'><h3>HIDDEN</h3></button>"
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Death Star Moves",
+    "text": "<button class='box a'><h3>14 BBY</h3>The Death Star project is moved from Geonosis</button>"
+  },
+  {
+    "time": 1,
+    "name": "Galen Erso Taken",
+    "text": "<button class='box b'><h3>13 BBY</h3>Galen Erso taken away to continue his work on the Death Star. Jyn taken in by Saw Garrera</button>"
+  },
+  {
+    "time": 1,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Kenobi Rescues Luke",
+    "text": "<button class='box a'><h3>11 BBY</h3>Obi-Wan rescues Luke from an altercation with Jabba the Hutt. Restores hope in Kenobi for a future of the Jedi</button>"
+  },
+  {
+    "time": 8,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Aliliance Formed",
+    "text": "<button class='box b'><h3>2 BBY</h3>Mon Mothma forms the Alliance to Restore the Republic</button>"
+  },
+  {
+    "time": 2,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
   },
   {
     "time": 1,
     "name": "Rogue One",
-    "text": "<button class='box a' id='3' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>0 BBY</h3>Rogue One</button>",
+    "text": "<button class='box a' id='4' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>0 BBY</h3>Rogue One</button>",
     "description": "<h3>Rogue One</h3><li>Bodhi Rook, a defecting Imperial pilot, smuggles a holographic message from Galen Erso for the Rebel Alliance</li><li>Jyn Erso is freed from Imperial captivity and brought to rebel leaders by Rebel intelligence officer Cassian Andor</li><li>Rebel forces steal the Death Star structural plans from a high-security data bank on the planet Scarif</li><br />"
   },
   {
     "time": 1,
     "name": "Episode4",
-    "text": "<button class='box b' id='4' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>0 BBY/0 ABY</h3>Episode IV: A New Hope</button>",
+    "text": "<button class='box b' id='5' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>0 BBY/0 ABY</h3>Episode IV: A New Hope</button>",
     "description": "<h3>Episode IV: A New Hope</h3><li>Owen and Beru Lars are murdered by Imperial stormtroopers; the Lars homestead is destroyed.</li><li>Luke Skywalker leaves Tatooine and begins training to become a Jedi.</li><li> Alderaan is destroyed by the Death Star</li><li>Leia Organa is rescued from the Death Star; Obi-Wan Kenobi purposely dies in duel with Darth Vader and becomes a Force spirit.</li><li>Battle of Yavin: The Death Star is destroyed by the Rebel Alliance.</li><br />"
   },
   {
-    "time": 3,
+    "time": 2,
     "name": "HIDDEN",
-    "text": "<button class='box hidden'><h3>HIDDEN</h3></button>"
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
   },
   {
     "time": 1,
     "name": "Episode5",
-    "text": "<button class='box a' id='5' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>3 ABY</h3>Episode V: The Empire Strikes Back</button>",
+    "text": "<button class='box a' id='6' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>3 ABY</h3>Episode V: The Empire Strikes Back</button>",
     "description": "<h3>Episode V: The Empire Stikes Back</h3><li>Battle of Hoth: The Rebel Alliance suffers a costly blow when the Empire attacks Echo Base.</li><li>Following advice from Obi-Wan Kenobi, Luke Skywalker heads to Dagobah to begin his training with Jedi Master Yoda.</li><li>Luke and Darth Vadar duel in Cloud City, resulting in Luke losing a hand.</li><li>Darth Vader reveals himself as Luke's father, Anakin Skywalker.</li><li>Leia, Chewbacca, and Lando rescue Luke from Cloud City</li><br />"
   },
   {
     "time": 1,
     "name": "Episode6",
-    "text": "<button class='box b' id='6' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>4 ABY</h3>Episode VI: Return of the Jedi</button>",
+    "text": "<button class='box b' id='7' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>4 ABY</h3>Episode VI: Return of the Jedi</button>",
     "description": "<h3>Episode VI: Return of the Jedi</h3><li>Rescue of Han Solo: Han Solo is rescued from Jabba the Hutt</li><li>Jabba is killed by Leia Organa</li><li>Boba Fett is presumed dead after falling in the sarlacc pit.</li><li>Yoda dies and Luke Skywalker discovers that he is not only truly the son of Darth Vader but also the brother of Leia Organa. He later passes this information on to Leia.</li><li>Battle of Endor: Darth Vader is redeemed and kills Darth Sidious, the Galactic Emperor, fulfilling the prophecy of the Chosen One and bringing balance to the Force, as well as destroying the Sith.</li><li>Funeral of Anakin Skywalker.</li><br />"
   },
   {
-    "time": 30,
+    "time": 3,
     "name": "HIDDEN",
-    "text": "<button class='box hidden'><h3>HIDDEN</h3></button>"
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Poe Flies",
+    "text": "<button class='box a'><h3>8 ABY</h3>Poe Dameron begins to learn to fly starships from his mother Shara Bey</button>"
+  },
+  {
+    "time": 2,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Finn Born",
+    "text": "<button class='box b'><h3>11 ABY</h3>Finn is Born</button>"
+  },
+  {
+    "time": 5,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Rey Born",
+    "text": "<button class='box a'><h3>15 ABY</h3>Rey is Born</button>"
+  },
+  {
+    "time": 5,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "First Order",
+    "text": "<button class='box b'><h3>21 ABY</h3>The First Order begins using Rinnrivin Di's cartel and the Amaxine warriours to procure funds for rebuilding its navy</button>"
+  },
+  {
+    "time": 7,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Organa Resistance",
+    "text": "<button class='box a'><h3>28 ABY</h3>Leia Organa resigns from Galactic Senate - forms the Resistance.</button>"
+  },
+  {
+    "time": 5,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
+  },
+  {
+    "time": 1,
+    "name": "Destruction of the Jedi",
+    "text": "<button class='box a'><h3>UNKNOWN</h3>Ben Solo turns to the dark side of the Force and prevents his uncle, Luke Skywalker, from resurrecting the Jedi Order by massacring his students. Luke goes into exile - Ben Solo assumes the name Kylo Ren</button>"
+  },
+  {
+    "time": 5,
+    "name": "HIDDEN",
+    "text": "<button class='box year hidden'><h3>___</h3></button>"
   },
   {
     "time": 1,
     "name": "Episode7",
-    "text": "<button class='box b' id='7' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>34 ABY</h3>Episode VII: The Force Awakens</button>",
+    "text": "<button class='box b' id='8' data-toggle='modal' data-target='.bs-example-modal-lg'><h3>34 ABY</h3>Episode VII: The Force Awakens</button>",
     "description": "<h3>Episode VII: The Force Awakens</h3><li>Attack on Tuanul: The village of Tuanul is sacked by the First Order, which had been pursuing a clue to the missing Jedi Master Luke Skywalker's location.</li><li>Escape from Jakku: Rey, a scavenger, Finn, a former stormtrooper of the First Order, and BB-8, a Resistance astromech droid, escape from the planet of Jakku to evade the Order</li><li>The Hosnian system is targeted and destroyed by the First Order's superweapon, the Starkiller.</li><li>The First Order sacks Maz Kanata's castle, searching for the Resistance astromech droid BB-8.</li><li>Assault on Starkiller Base. Resistance forces engage with the First Order at their stronghold, destroying the Starkiller superweapon.</li><li>Han Solo killed by Kylo Ren durring assult on Starkiller Base.</li><li>Rey and Chewbacca find Luke Skywalker on Ahch-To, an uncharted planet in the Unknown Regions</li><br />"
   }
 ]

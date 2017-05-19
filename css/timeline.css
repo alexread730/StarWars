@@ -1,3 +1,5 @@
+
+
 #viewport {
   -webkit-perspective:100px;
   -webkit-perspective-origin:50% -100%;
@@ -23,6 +25,7 @@
   border-radius: 5px;
   max-width: 50%;
   background-color: black;
+
 }
 
 .a {
@@ -33,9 +36,33 @@
   margin-left: 10px;
 }
 
-body {
-  height: 1000px;
+.year {
+  color: white;
+  border: none;
+  color: #31B0D5;
+  text-shadow: 0 0 3em #1d99f7, 0 0 0.2em #1d99f7,
+        0 0 0.2em #1d99f7;
+  margin-left: -22px;
 }
+
+.image-logo {
+  border: none;
+  display: inline-block;
+  margin-left: -160px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  letter-spacing: 6px;
+}
+
+.image-logo img{
+  text-align: center;
+  justify-content: center;
+  max-height: 200px;
+}
+
+.timeline-pic {
+  margin-left: 25px;
+}
+
 
 p {
   padding: 10px;
@@ -46,6 +73,7 @@ p {
   border-left: 2px solid #1d99f7;
   height: 150%;
   position: fixed;
+  z-index: -1000;
   margin-left: 50%;
   -webkit-box-shadow:0 0 30px #1d99f7;
   -moz-box-shadow: 0 0 30px #1d99f7;

@@ -16,8 +16,20 @@
 #landing-logo {
   width: 90vw;
   height: auto;
+  z-index: 1;
   display: block;
   margin-left: auto;
+  margin-right: auto;
+}
+
+#landing-logo-small {
+  width: 20vw;
+  height: auto;
+  z-index: 3;
+  display: block;
+  margin-left: auto;
+  margin-top: -40px;
+  margin-bottom: 20px;
   margin-right: auto;
 }
 
@@ -37,7 +49,7 @@ body {
   background-color: black;
   border-color: #ffe81f;
   max-width: 75vw;
-  max-height: 85vh;
+  max-height: 60vh;
   display: block;
   margin: 0 auto;
   overflow-y: scroll;
@@ -57,17 +69,16 @@ body {
 
 
 .character-avatar img {
-  /*width: 75%;*/
-  max-height: 400px;
+  max-height: 200px;
   display: block;
   margin: 5px 20px;
 }
-.cropper {
+/*.cropper {
   width: 300px;
   height: 300px;
   overflow: hidden;
   object-fit: cover;
-}
+}*/
 
 .planet-avatar img {
   width: auto;
@@ -95,6 +106,13 @@ body {
         0 0 0.2em #1d99f7;
 }
 
+@media (min-width: 400px) {
+  .character-avatar img {
+    display: inline-block;
+    float:right;
+  }
+
+}
 /*small devices*/
 @media (min-width: 768px) {
   #landing-logo {
