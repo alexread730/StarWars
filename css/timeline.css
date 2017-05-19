@@ -36,6 +36,10 @@
   margin-left: 10px;
 }
 
+.c {
+  border: none;
+}
+
 .year {
   color: white;
   border: none;

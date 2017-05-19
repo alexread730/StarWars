@@ -1,7 +1,7 @@
 [
   {
     "time": 1,
-    "name": "Episode1",
+    "name": "Main Image",
     "text": "<button type='button' class='box image-logo' id='0'><img src='./imgs/starwars-logo.png'><img class='timeline-pic' src='./imgs/timeline.png'></button>",
     "description": "<h1>STAR WARS</h1>"
   },
@@ -41,7 +41,7 @@
   {
     "time": 1,
     "name": "Rebellion Organization",
-    "text": "<button class='box b'><h3>18 BBY</h3>Bail Organa and Ahsoka Tano organize a rebel network</button>"
+    "text": "<button class='box b c'><h3>18 BBY</h3>Bail Organa and Ahsoka Tano organize a rebel network</button>"
   },
   {
     "time": 3,
@@ -51,12 +51,12 @@
   {
     "time": 1,
     "name": "Death Star Moves",
-    "text": "<button class='box a'><h3>14 BBY</h3>The Death Star project is moved from Geonosis</button>"
+    "text": "<button class='box a c'><h3>14 BBY</h3>The Death Star project is moved from Geonosis</button>"
   },
   {
     "time": 1,
     "name": "Galen Erso Taken",
-    "text": "<button class='box b'><h3>13 BBY</h3>Galen Erso taken away to continue his work on the Death Star. Jyn taken in by Saw Garrera</button>"
+    "text": "<button class='box b c'><h3>13 BBY</h3>Galen Erso taken away to continue his work on the Death Star. Jyn taken in by Saw Garrera</button>"
   },
   {
     "time": 1,
@@ -66,7 +66,7 @@
   {
     "time": 1,
     "name": "Kenobi Rescues Luke",
-    "text": "<button class='box a'><h3>11 BBY</h3>Obi-Wan rescues Luke from an altercation with Jabba the Hutt. Restores hope in Kenobi for a future of the Jedi</button>"
+    "text": "<button class='box a c'><h3>11 BBY</h3>Obi-Wan rescues Luke from an altercation with Jabba the Hutt. Restores hope in Kenobi for a future of the Jedi</button>"
   },
   {
     "time": 8,
@@ -76,7 +76,7 @@
   {
     "time": 1,
     "name": "Aliliance Formed",
-    "text": "<button class='box b'><h3>2 BBY</h3>Mon Mothma forms the Alliance to Restore the Republic</button>"
+    "text": "<button class='box b c'><h3>2 BBY</h3>Mon Mothma forms the Alliance to Restore the Republic</button>"
   },
   {
     "time": 2,
@@ -120,7 +120,7 @@
   {
     "time": 1,
     "name": "Poe Flies",
-    "text": "<button class='box a'><h3>8 ABY</h3>Poe Dameron begins to learn to fly starships from his mother Shara Bey</button>"
+    "text": "<button class='box a c'><h3>8 ABY</h3>Poe Dameron begins to learn to fly starships from his mother Shara Bey</button>"
   },
   {
     "time": 2,
@@ -130,7 +130,7 @@
   {
     "time": 1,
     "name": "Finn Born",
-    "text": "<button class='box b'><h3>11 ABY</h3>Finn is Born</button>"
+    "text": "<button class='box b c'><h3>11 ABY</h3>Finn is Born</button>"
   },
   {
     "time": 5,
@@ -140,7 +140,7 @@
   {
     "time": 1,
     "name": "Rey Born",
-    "text": "<button class='box a'><h3>15 ABY</h3>Rey is Born</button>"
+    "text": "<button class='box a c'><h3>15 ABY</h3>Rey is Born</button>"
   },
   {
     "time": 5,
@@ -150,7 +150,7 @@
   {
     "time": 1,
     "name": "First Order",
-    "text": "<button class='box b'><h3>21 ABY</h3>The First Order begins using Rinnrivin Di's cartel and the Amaxine warriours to procure funds for rebuilding its navy</button>"
+    "text": "<button class='box b c'><h3>21 ABY</h3>The First Order begins using Rinnrivin Di's cartel and the Amaxine warriours to procure funds for rebuilding its navy</button>"
   },
   {
     "time": 7,
@@ -160,17 +160,17 @@
   {
     "time": 1,
     "name": "Organa Resistance",
-    "text": "<button class='box a'><h3>28 ABY</h3>Leia Organa resigns from Galactic Senate - forms the Resistance.</button>"
+    "text": "<button class='box a c'><h3>28 ABY</h3>Leia Organa resigns from Galactic Senate - forms the Resistance.</button>"
   },
   {
-    "time": 5,
+    "time": 4,
     "name": "HIDDEN",
     "text": "<button class='box year hidden'><h3>___</h3></button>"
   },
   {
     "time": 1,
     "name": "Destruction of the Jedi",
-    "text": "<button class='box a'><h3>UNKNOWN</h3>Ben Solo turns to the dark side of the Force and prevents his uncle, Luke Skywalker, from resurrecting the Jedi Order by massacring his students. Luke goes into exile - Ben Solo assumes the name Kylo Ren</button>"
+    "text": "<button class='box a c'><h3>UNKNOWN</h3>Ben Solo turns to the dark side of the Force and prevents his uncle, Luke Skywalker, from resurrecting the Jedi Order by massacring his students. Luke goes into exile - Ben Solo assumes the name Kylo Ren</button>"
   },
   {
     "time": 5,
