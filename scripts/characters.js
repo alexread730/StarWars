@@ -44,7 +44,7 @@ $(document).ready(function() {
         });
         //append list of characters to page
         $('.list-group').append(
-          `<button type="button" data-index=${charNum} class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="${avatar}" width="50%" height="auto"><br />${character.name}</button>`);
+          `<button type="button" data-index="${charNum}" class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="${avatar}" width="50%" height="auto"><br />${character.name}</button>`);
         charNum++;
       });
   }

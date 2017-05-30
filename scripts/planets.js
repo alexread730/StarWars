@@ -102,7 +102,7 @@ function makePlanetList(planet) {
 
   function getResidents(residents) {
     $('#residents').empty();
-    if (residents.length) {
+    if (residents.length != 0) {
       for (var i = 0; i < residents.length; i++) {
         $.getJSON(residents[i].replace(/http/, 'https'))
           .then(function(response) {
@@ -110,8 +110,8 @@ function makePlanetList(planet) {
             $('.loading').hide();
           });
       }
-    } else {
+    } else if (residents.length == 0){
       $('.loading').hide();
-      $('#residents-title').text('Residents: None');
+      $('#residents-title').text('Residents: ');
     }
   }
