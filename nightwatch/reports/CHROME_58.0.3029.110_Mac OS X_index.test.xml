@@ -5,16 +5,16 @@
 
   <testsuite name="index.test"
     errors="0" failures="0" hostname="" id="" package="index.test" skipped="0"
-    tests="3" time="6.684" timestamp="Tue, 30 May 2017 22:21:57 GMT">
+    tests="3" time="6.815" timestamp="Wed, 31 May 2017 17:36:00 GMT">
   
-    <testcase name="Index test" classname="index.test" time="1.748" assertions="2">
+    <testcase name="Index test" classname="index.test" time="2.044" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Timeline test" classname="index.test" time="1.822" assertions="3">
+    <testcase name="Timeline test" classname="index.test" time="1.770" assertions="3">
 
     
 
@@ -23,7 +23,7 @@
     
     </testcase>
   
-    <testcase name="Character test" classname="index.test" time="3.114" assertions="2">
+    <testcase name="Character test" classname="index.test" time="3.001" assertions="2">
 
     
 

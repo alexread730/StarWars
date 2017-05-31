@@ -1,11 +1,9 @@
-const PLANETS_URL = 'https://swapi.co/api/planets/?page=';
-const SEARCH_URL = 'https://swapi.co/api/planets/?search=';
 let planetArray = [];
-let planetNum = 0;
 
 getPlanets();
 
 function getPlanets() {
+  const PLANETS_URL = 'https://swapi.co/api/planets/?page=';
   const promises = [];
   for (let i = 1; i < 8; i++) {
     const promise = $.getJSON(PLANETS_URL + i);
@@ -31,7 +29,7 @@ function makePlanetsArray(page) {
 
 }
 
-function makePlanetList(planet) {
+function makePlanetList(planet,planetNum) {
    let avatar = "";
   $.get('./scripts/planet-images.json')
     .then(function(imageArray){
@@ -43,7 +41,6 @@ function makePlanetList(planet) {
       //append list of characters to page
       $('.list-group').append(
         `<button type="button" data-index=${planetNum} class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="${avatar}" width="50%" height="auto"><br />${planet.name}</button>`);
-      planetNum++;
     });
 }
 
@@ -67,6 +64,7 @@ function makePlanetList(planet) {
   });
 
   $('#search').on('click', function(event) {
+    const SEARCH_URL = 'https://swapi.co/api/planets/?search=';
     event.preventDefault();
     let searchVal = $('#search-input').val();
     $('.btn-info').hide();
@@ -81,7 +79,7 @@ function makePlanetList(planet) {
       let matchIndex = planetArray.findIndex(function(planet) {
         return planet.name == name;
       });
-      planetNum = matchIndex;
+      let planetNum = matchIndex;
       $('.list-group').append(
         `<button type="button" data-index=${planetNum} class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="" width="50%" height="auto"><br />${name}</button>`);
     });

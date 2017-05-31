@@ -1,13 +1,10 @@
 $(document).ready(function() {
-  const PEOPLE_URL = 'https://swapi.co/api/people/?page=';
-  const SEARCH_URL = 'https://swapi.co/api/people/?search=';
   let charArray = [];
-  let charNum = 0;
-
 
   getCharacters();
-
+  
   function getCharacters() {
+    const PEOPLE_URL = 'https://swapi.co/api/people/?page=';
     const promises = [];
     for (let i = 1; i < 10; i++) {
       const promise = $.getJSON(PEOPLE_URL + i);
@@ -33,7 +30,7 @@ $(document).ready(function() {
 
   }
 
-  function makeCharacterList(character) {
+  function makeCharacterList(character,charNum) {
     let avatar = "";
     $.get('./scripts/character-images.json')
       .then(function(imageArray){
@@ -45,7 +42,6 @@ $(document).ready(function() {
         //append list of characters to page
         $('.list-group').append(
           `<button type="button" data-index="${charNum}" class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="${avatar}" width="50%" height="auto"><br />${character.name}</button>`);
-        charNum++;
       });
   }
 
@@ -66,6 +62,7 @@ $(document).ready(function() {
   });
 
   $('#search').on('click', function(event) {
+    const SEARCH_URL = 'https://swapi.co/api/people/?search=';
     event.preventDefault();
     let searchVal = $('#search-input').val();
     $('.btn-info').hide();
@@ -80,7 +77,7 @@ $(document).ready(function() {
       let matchIndex = charArray.findIndex(function(character) {
         return character.name == name;
       });
-      charNum = matchIndex;
+      let charNum = matchIndex;
       $('.list-group').append(
         `<button type="button" data-index=${charNum} class="btn btn-info btn-block" id="char-button" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="" width="50%" height="auto"><br />${name}</button>`);
     });
@@ -121,7 +118,5 @@ $(document).ready(function() {
           $('.loading').hide();
         });
     }
-
   }
-
 });
