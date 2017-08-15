@@ -2,9 +2,9 @@ $(document).ready(function() {
   let charArray = [];
 
   getCharacters();
-  
+
   function getCharacters() {
-    const PEOPLE_URL = 'https://swapi.co/api/people/?page=';
+    const PEOPLE_URL = 'http://swapi.co/api/people/?page=';
     const promises = [];
     for (let i = 1; i < 10; i++) {
       const promise = $.getJSON(PEOPLE_URL + i);
@@ -45,6 +45,14 @@ $(document).ready(function() {
       });
   }
 
+  // function imageMatch(imageObj) {
+  //   let avatar = "";
+  //   if (character.name == imageObj.name) {
+  //     avatar = imageObj.image;
+  //   }
+  // }
+
+
   $('.list-group').on('click', '.btn', function() {
     event.preventDefault();
     $('.loading').show();
@@ -62,7 +70,7 @@ $(document).ready(function() {
   });
 
   $('#search').on('click', function(event) {
-    const SEARCH_URL = 'https://swapi.co/api/people/?search=';
+    const SEARCH_URL = 'http://swapi.co/api/people/?search=';
     event.preventDefault();
     let searchVal = $('#search-input').val();
     $('.btn-info').hide();
