@@ -6,10 +6,12 @@ $(document).ready(function() {
   function getCharacters() {
     const PEOPLE_URL = 'http://swapi.co/api/people/?page=';
     const promises = [];
+    //get people from api, place in promise array
     for (let i = 1; i < 10; i++) {
       const promise = $.getJSON(PEOPLE_URL + i);
       promises.push(promise)
     }
+    //resolve promise array
     Promise
       .all(promises)
       .then(showCharacters);
@@ -52,7 +54,7 @@ $(document).ready(function() {
   //   }
   // }
 
-
+  //append people info to modal display
   $('.list-group').on('click', '.btn', function() {
     event.preventDefault();
     $('.loading').show();
@@ -69,6 +71,7 @@ $(document).ready(function() {
 
   });
 
+//search funciton
   $('#search').on('click', function(event) {
     const SEARCH_URL = 'http://swapi.co/api/people/?search=';
     event.preventDefault();
@@ -78,6 +81,7 @@ $(document).ready(function() {
       .then(showSearchResults);
   });
 
+//show people with seach value in name
   function showSearchResults(response) {
     let searchArray = response.results;
     searchArray.forEach(function(person) {
@@ -91,6 +95,7 @@ $(document).ready(function() {
     });
   }
 
+//find character avatar and append to modal
   function getAvatar(index) {
     $('.character-avatar').empty();
     $.get('./scripts/character-images.json')

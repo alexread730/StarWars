@@ -5,10 +5,12 @@ getPlanets();
 function getPlanets() {
   const PLANETS_URL = 'http://swapi.co/api/planets/?page=';
   const promises = [];
+  //get planets from api, place in promise array
   for (let i = 1; i < 8; i++) {
     const promise = $.getJSON(PLANETS_URL + i);
     promises.push(promise)
   }
+  //resolve promise array
   Promise
     .all(promises)
     .then(showPlanets);
@@ -43,6 +45,7 @@ function makePlanetList(planet,planetNum) {
     });
 }
 
+  //planet info modal display
   $('.list-group').on('click', '.btn', function() {
     event.preventDefault();
     $('.loading').show();
@@ -61,6 +64,7 @@ function makePlanetList(planet,planetNum) {
 
   });
 
+//search function
   $('#search').on('click', function(event) {
     const SEARCH_URL = 'http://swapi.co/api/planets/?search=';
     event.preventDefault();
@@ -70,6 +74,7 @@ function makePlanetList(planet,planetNum) {
       .then(showSearchResults);
   });
 
+//only show those planets with search box values in them
   function showSearchResults(response) {
     let searchArray = response.results;
     searchArray.forEach(function(planet) {
@@ -83,6 +88,7 @@ function makePlanetList(planet,planetNum) {
     });
   }
 
+//match planet picture with planet name and display
   function getAvatar(index) {
     $('.planet-avatar').empty();
     $.get('./scripts/planet-images.json')
@@ -96,6 +102,8 @@ function makePlanetList(planet,planetNum) {
     });
   }
 
+
+//find residents from API with chosen planet name
   function getResidents(residents) {
     $('#residents').empty();
     if (residents.length != 0) {

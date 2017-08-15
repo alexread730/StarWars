@@ -4,6 +4,7 @@ $(document).ready(function() {
   let boxPositions = [];
   let descriptions = [];
 
+//get request for timeline events, then sizing for body height, viewport height, and event position spacing
   $.get('./scripts/timeline-events.json')
     .then(function(eventArray) {
       eventArray.forEach(function(event) {
@@ -20,6 +21,7 @@ $(document).ready(function() {
         }
       });
 
+//define scroll position
       var scrollPosition = document.body.scrollTop;
 
       function scrollDelta() {
