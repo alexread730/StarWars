@@ -3,7 +3,7 @@ let planetArray = [];
 getPlanets();
 
 function getPlanets() {
-  const PLANETS_URL = 'http://swapi.co/api/planets/?page=';
+  const PLANETS_URL = 'https://swapi.co/api/planets/?page=';
   const promises = [];
   //get planets from api, place in promise array
   for (let i = 1; i < 8; i++) {
@@ -66,7 +66,7 @@ function makePlanetList(planet,planetNum) {
 
 //search function
   $('#search').on('click', function(event) {
-    const SEARCH_URL = 'http://swapi.co/api/planets/?search=';
+    const SEARCH_URL = 'https://swapi.co/api/planets/?search=';
     event.preventDefault();
     let searchVal = $('#search-input').val();
     $('.btn-info').hide();
@@ -108,7 +108,7 @@ function makePlanetList(planet,planetNum) {
     $('#residents').empty();
     if (residents.length != 0) {
       for (var i = 0; i < residents.length; i++) {
-        $.getJSON(residents[i].replace(/http/, 'https'))
+        $.getJSON(residents[i])
           .then(function(response) {
             $('#residents').append(`<li>${response.name}</li>`);
             $('.loading').hide();

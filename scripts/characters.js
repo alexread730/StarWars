@@ -4,7 +4,7 @@ $(document).ready(function() {
   getCharacters();
 
   function getCharacters() {
-    const PEOPLE_URL = 'http://swapi.co/api/people/?page=';
+    const PEOPLE_URL = 'https://swapi.co/api/people/?page=';
     const promises = [];
     //get people from api, place in promise array
     for (let i = 1; i < 10; i++) {
@@ -47,12 +47,6 @@ $(document).ready(function() {
       });
   }
 
-  // function imageMatch(imageObj) {
-  //   let avatar = "";
-  //   if (character.name == imageObj.name) {
-  //     avatar = imageObj.image;
-  //   }
-  // }
 
   //append people info to modal display
   $('.list-group').on('click', '.btn', function() {
@@ -73,7 +67,7 @@ $(document).ready(function() {
 
 //search funciton
   $('#search').on('click', function(event) {
-    const SEARCH_URL = 'http://swapi.co/api/people/?search=';
+    const SEARCH_URL = 'https://swapi.co/api/people/?search=';
     event.preventDefault();
     let searchVal = $('#search-input').val();
     $('.btn-info').hide();
@@ -109,14 +103,14 @@ $(document).ready(function() {
   }
 
   function getHomeworld(homeworld) {
-    $.getJSON(homeworld.replace(/http/, 'https'))
+    $.getJSON(homeworld)
       .then(function(response) {
         $('#homeworld').text(`Homeworld: ${response.name}`);
       });
   }
 
   function getSpecies(species) {
-    $.getJSON(species.replace(/http/, 'https'))
+    $.getJSON(species)
       .then(function(response) {
         $('#species').text(`Species: ${response.name}`);
       });
@@ -125,7 +119,7 @@ $(document).ready(function() {
   function getFilms(films) {
     $('#films').empty();
     for (var i = 0; i < films.length; i++) {
-      $.getJSON(films[i].replace(/http/, 'https'))
+      $.getJSON(films[i])
         .then(function(response) {
           $('#films').append(`<li>Episode ${response.episode_id}: ${response.title}</li>`);
           $('.loading').hide();
